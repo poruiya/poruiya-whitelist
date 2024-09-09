@@ -28,7 +28,7 @@ I Hope This Helps You On Your Server Journey To Becoming a Good Server!
 Now, The Whitelist Code :
 
 Server.lua :
-```
+```lua
 local whitelist = {}
 local webhookURL = "Your Discord Webhook"
 local steamApiKey = "Your Steam API Key"
@@ -186,7 +186,7 @@ AddEventHandler("playerConnecting", function(name, setKickReason, deferrals)
 end)
 ```
 Whitelist.json : 
-```
+```json
 [
     "SteamHex",
     "SteamHex2",
@@ -194,7 +194,7 @@ Whitelist.json :
 ]
 ```
 Fxmanifest.lua
-```
+```lua
 fx_version 'cerulean'
 game 'gta5'
 
@@ -206,3 +206,6 @@ server_scripts {
     'server.lua'
 }
 ```
+<h2>🛡️ License:</h2>
+
+This Project is Licensed Under  [poruiya Development](https://discord.com/users/942361321456926721)
